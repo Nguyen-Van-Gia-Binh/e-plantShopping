@@ -1,0 +1,35 @@
+/* ===== About Us ===== */
+.about-us-container {
+    max-width: 100%;
+}
+
+.about-us-description {
+    font-size: 17px;
+    font-weight: 500;
+    color: #d4a373;
+    margin-bottom: 16px;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+
+.about-us-content {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.about-us-content:last-child {
+    margin-bottom: 0;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 768px) {
+    .about-us-description {
+        font-size: 15px;
+    }
+
+    .about-us-content {
+        font-size: 13px;
+    }
+}
